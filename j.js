@@ -12,7 +12,7 @@ form.addEventListener('submit', function(event) {
 
   const formData = new FormData(form);
 
-  fetch('https://script.google.com/macros/s/AKfycbz6qYFzjUH2h-pmhdhdmhxadufQP2-LxAkpy3S2a_lIv3bKP0JTwoc6aOgPv1I_Bq4m2Q/exec', {
+  fetch('https://script.google.com/macros/s/AKfycbzAeBM3OEyFpGJFBmzocCXFP1p1c-OiNwYcK2_G1hz6YzAdkCNWstqtp8TK7kQouymg/exec', {
     method: 'POST',
     body: formData
   })
